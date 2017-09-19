@@ -12,6 +12,15 @@
 		838F68CA1F7108C300C7339B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838F68C81F7108C300C7339B /* Main.storyboard */; };
 		838F68CC1F7108C300C7339B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 838F68CB1F7108C300C7339B /* Assets.xcassets */; };
 		838F68CF1F7108C300C7339B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 838F68CD1F7108C300C7339B /* LaunchScreen.storyboard */; };
+		838F68DF1F7108F100C7339B /* Blood.png in Resources */ = {isa = PBXBuildFile; fileRef = 838F68DC1F7108F100C7339B /* Blood.png */; };
+		838F68E01F7108F100C7339B /* Sun.png in Resources */ = {isa = PBXBuildFile; fileRef = 838F68DD1F7108F100C7339B /* Sun.png */; };
+		838F68E11F7108F100C7339B /* Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 838F68DE1F7108F100C7339B /* Moon.png */; };
+		838F68E81F71090000C7339B /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = 838F68E21F71090000C7339B /* location.png */; };
+		838F68E91F71090000C7339B /* location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 838F68E31F71090000C7339B /* location@2x.png */; };
+		838F68EA1F71090000C7339B /* location@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 838F68E41F71090000C7339B /* location@3x.png */; };
+		838F68EB1F71090000C7339B /* Refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 838F68E51F71090000C7339B /* Refresh.png */; };
+		838F68EC1F71090000C7339B /* Refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 838F68E61F71090000C7339B /* Refresh@2x.png */; };
+		838F68ED1F71090000C7339B /* Refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 838F68E71F71090000C7339B /* Refresh@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		838F68CB1F7108C300C7339B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		838F68CE1F7108C300C7339B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		838F68D01F7108C300C7339B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		838F68DC1F7108F100C7339B /* Blood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blood.png; sourceTree = "<group>"; };
+		838F68DD1F7108F100C7339B /* Sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sun.png; sourceTree = "<group>"; };
+		838F68DE1F7108F100C7339B /* Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Moon.png; sourceTree = "<group>"; };
+		838F68E21F71090000C7339B /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		838F68E31F71090000C7339B /* location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@2x.png"; sourceTree = "<group>"; };
+		838F68E41F71090000C7339B /* location@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "location@3x.png"; sourceTree = "<group>"; };
+		838F68E51F71090000C7339B /* Refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Refresh.png; sourceTree = "<group>"; };
+		838F68E61F71090000C7339B /* Refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh@2x.png"; sourceTree = "<group>"; };
+		838F68E71F71090000C7339B /* Refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Refresh@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 		838F68C31F7108C300C7339B /* iWeather */ = {
 			isa = PBXGroup;
 			children = (
+				838F68F01F71094200C7339B /* Resource */,
 				838F68C41F7108C300C7339B /* AppDelegate.swift */,
 				838F68C61F7108C300C7339B /* ViewController.swift */,
 				838F68C81F7108C300C7339B /* Main.storyboard */,
@@ -62,6 +81,38 @@
 				838F68D01F7108C300C7339B /* Info.plist */,
 			);
 			path = iWeather;
+			sourceTree = "<group>";
+		};
+		838F68EE1F71091700C7339B /* Background */ = {
+			isa = PBXGroup;
+			children = (
+				838F68DC1F7108F100C7339B /* Blood.png */,
+				838F68DD1F7108F100C7339B /* Sun.png */,
+				838F68DE1F7108F100C7339B /* Moon.png */,
+			);
+			name = Background;
+			sourceTree = "<group>";
+		};
+		838F68EF1F71092700C7339B /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				838F68E21F71090000C7339B /* location.png */,
+				838F68E31F71090000C7339B /* location@2x.png */,
+				838F68E41F71090000C7339B /* location@3x.png */,
+				838F68E51F71090000C7339B /* Refresh.png */,
+				838F68E61F71090000C7339B /* Refresh@2x.png */,
+				838F68E71F71090000C7339B /* Refresh@3x.png */,
+			);
+			name = Icon;
+			sourceTree = "<group>";
+		};
+		838F68F01F71094200C7339B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				838F68EF1F71092700C7339B /* Icon */,
+				838F68EE1F71091700C7339B /* Background */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +175,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				838F68E11F7108F100C7339B /* Moon.png in Resources */,
+				838F68E01F7108F100C7339B /* Sun.png in Resources */,
+				838F68EC1F71090000C7339B /* Refresh@2x.png in Resources */,
+				838F68ED1F71090000C7339B /* Refresh@3x.png in Resources */,
+				838F68DF1F7108F100C7339B /* Blood.png in Resources */,
+				838F68EA1F71090000C7339B /* location@3x.png in Resources */,
 				838F68CF1F7108C300C7339B /* LaunchScreen.storyboard in Resources */,
+				838F68E81F71090000C7339B /* location.png in Resources */,
+				838F68E91F71090000C7339B /* location@2x.png in Resources */,
 				838F68CC1F7108C300C7339B /* Assets.xcassets in Resources */,
 				838F68CA1F7108C300C7339B /* Main.storyboard in Resources */,
+				838F68EB1F71090000C7339B /* Refresh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
